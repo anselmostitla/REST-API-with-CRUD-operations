@@ -1,7 +1,16 @@
 const mongoose = require("mongoose")
+const uuid = require("uuid")
 
 const restaurantSchema = mongoose.Schema({
-  rating: Number,
+  id: {
+    type: String,
+    default: uuid.v4()
+  },
+  rating: {
+    type: Number,
+    min: 0,
+    max: 5
+  },
   name: String,
   site: String,
   email: {
@@ -16,7 +25,7 @@ const restaurantSchema = mongoose.Schema({
   city: String,
   state: String,
   lat: Number,
-  ing: Number
+  lng: Number
 })
 
 module.exports = mongoose.model("Rest", restaurantSchema)
