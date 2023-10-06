@@ -1,6 +1,6 @@
 
 
-Introduction
+### Introduction
 
 This is a node.js express mongodb app. In this backend app we use the MVC design pattern to make it easy to mantain and scale this project.
 
@@ -9,7 +9,7 @@ This app is about a database on restaurants with different characteristics.
 People can check nearby restaurant, with ratings so that people can compare them.
 
 
-Instructions for running this app.
+### Instructions for running this app.
 
 1) clone this repo by using:
 git clone https://github.com/anselmostitla/Restaurant-mongo-express-nodejs.git
