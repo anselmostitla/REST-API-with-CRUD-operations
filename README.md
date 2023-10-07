@@ -17,12 +17,18 @@ git clone https://github.com/anselmostitla/Restaurant-mongo-express-nodejs.git
 2) Run this command to install dependencies:
 npm install
 
-3) Please get your mongo URI from mongodb.com and put it on a new .env file
+3) Please get your mongo URI password from mongodb.com and put it on a new .env file
 
-4) To run the apllication it is enought to put
+4) To run the aplication it is enought to put
 npm run dev (this will run nodemon index.js)
 
 5) You can use thunder client or postman to test this app
+
+### You can test the following end points
+
+http://localhost:4000
+
+http://localhost:4000/restaurants/statistics/19.4329125180636/-99.1312/0.005
 
 
  
